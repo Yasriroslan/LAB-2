@@ -1,0 +1,31 @@
+package QUIZ2;
+
+import java.util.Scanner;
+
+public class lab2 {
+
+	
+	public static void main(String[] args) {  // Program entry point
+	      
+		Scanner sc = new Scanner (System.in);
+		
+		int number;       
+	     
+		System.out.println("The number is ");
+		number = sc.nextInt();
+	     
+		if (number% 2 != 0 ) {
+	         
+			System.out.println("ODD NUMBER" );   
+	     
+		} else {
+	         
+			System.out.println("EVEN NUMBER" );  
+			
+		}
+	     
+		System.out.println("BYE");
+	   
+	}
+	
+}
