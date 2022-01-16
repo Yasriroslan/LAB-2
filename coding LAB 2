@@ -11,7 +11,7 @@ public class lab2 {
 		
 		int number;       
 	     
-		System.out.println("The number is ");
+		System.out.println("THE NUMBER IS ");
 		number = sc.nextInt();
 	     
 		if (number% 2 != 0 ) {
